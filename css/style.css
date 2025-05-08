@@ -82,7 +82,7 @@ header {
   background-color: red;
   color: white;
   padding: 5px 15px;
-  bottom: 35px;
+  bottom: 100px;
 }
 
 .ico-green {
@@ -90,8 +90,18 @@ header {
   font-weight: bolder;
   color: white;
   background-color: green;
-  bottom: 35px;
+  bottom: 100px;
   left: 65px;
+  padding: 5px 15px;
+}
+
+.ico-green-img6 {
+  position: absolute;
+  font-weight: bolder;
+  color: white;
+  background-color: green;
+  bottom: 60px;
+  left: 0px;
   padding: 5px 15px;
 }
 
@@ -126,4 +136,14 @@ footer {
   display: flex;
   margin-top: 10px;
   justify-content: space-between;
+}
+
+.red {
+  padding-right: 5px;
+  color: red;
+  font-weight: bolder;
+}
+
+.discount {
+  text-decoration: line-through;
 }
