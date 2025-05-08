@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -14,12 +14,12 @@
   width: 80%;
 }
 .debug {
-  border: 1px solid greenyellow;
 }
 
 /* utilies */
 header {
   background-color: #ff6900;
+  margin-bottom: 50px;
 }
 
 /* header */
@@ -30,6 +30,7 @@ header {
   padding: 10px;
   height: 50px;
   color: white;
+  position: sticky;
 }
 .action {
   font-size: 16px;
@@ -43,11 +44,86 @@ header {
 
 .logo-bool {
   height: 30px;
-  flex-basis: 25%;
+
   font-weight: bolder;
   cursor: pointer;
 }
 
 .margin-nav {
   margin-inline: 8px;
+}
+
+/* main */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+.col-4 {
+  width: calc(100% / 3);
+  padding: 1rem;
+  position: relative;
+}
+.card {
+  position: relative;
+}
+
+.ico-heart {
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  background-color: white;
+  right: 0px;
+  cursor: pointer;
+}
+.ico-red {
+  position: absolute;
+  font-weight: bolder;
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  bottom: 35px;
+}
+
+.ico-green {
+  position: absolute;
+  font-weight: bolder;
+  color: white;
+  background-color: green;
+  bottom: 35px;
+  left: 65px;
+  padding: 5px 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.absolut {
+  position: absolute;
+}
+.foot {
+  justify-content: space-between;
+  color: white;
+  padding: 20px 0;
+}
+
+.foot a {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #202020;
+}
+
+.info {
+  margin-top: 10px;
+}
+.icons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
 }
