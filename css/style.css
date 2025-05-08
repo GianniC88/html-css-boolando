@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --land-bg-primary: orange;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+}
+.debug {
+  border: 1px solid greenyellow;
+}
+
+/* utilies */
+header {
+  background-color: #ff6900;
+}
+
+/* header */
+
+.nav-bar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 50px;
+  color: white;
+}
+.action {
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo-bool {
+  height: 30px;
+  flex-basis: 25%;
+  font-weight: bolder;
+}
+
+.margin-nav {
+  margin-inline: 8px;
+}
