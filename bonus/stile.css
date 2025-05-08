@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --land-bg-primary: orange;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+}
+.debug {
+}
+
+/* utilies */
+header {
+  background-color: #ff6900;
+  margin-bottom: 50px;
+}
+
+/* header */
+
+.nav-bar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 50px;
+  color: white;
+  position: sticky;
+}
+.action {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo-bool {
+  height: 30px;
+
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.margin-nav {
+  margin-inline: 8px;
+}
+
+/* main */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+.col-4 {
+  width: calc(100% / 3);
+  padding: 1rem;
+}
+.card {
+  position: relative;
+}
+
+.ico-heart {
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  background-color: white;
+  right: 0px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.ico-heart:hover {
+  color: red;
+}
+
+.ico-red {
+  position: absolute;
+  font-weight: bolder;
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  bottom: 100px;
+  z-index: 2;
+}
+
+.ico-green {
+  position: absolute;
+  font-weight: bolder;
+  color: white;
+  background-color: green;
+  bottom: 100px;
+  left: 65px;
+  padding: 5px 15px;
+  z-index: 2;
+}
+
+.ico-green-img6 {
+  position: absolute;
+  font-weight: bolder;
+  color: white;
+  background-color: green;
+  bottom: 60px;
+  left: 0px;
+  padding: 5px 15px;
+  z-index: 2;
+}
+
+.img-cover {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+
+.img-cover:hover {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.absolut {
+  position: absolute;
+}
+.foot {
+  justify-content: space-between;
+  color: white;
+  padding: 20px 0;
+}
+
+.foot a {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #202020;
+}
+
+.info {
+  margin-top: 10px;
+}
+.icons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.red {
+  padding-right: 5px;
+  color: red;
+  font-weight: bolder;
+}
+
+.discount {
+  text-decoration: line-through;
+}
